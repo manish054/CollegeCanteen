@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer{
+    height: 12vh;
+    width: 100%;
+    background-color: #a7f18e;
+}

@@ -1,0 +1,134 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+/*body{
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+}*/
+
+header{
+	background-color:#a7f18e;
+	font-family: sans-serif;
+    height: 14vh;
+    width: auto;
+}
+
+.menu{
+	text-align: center;
+    justify-content: center;
+	background-size: auto;
+}
+
+.menu ul{
+	display: inline-flex;
+	list-style:none;
+	color: white;
+	text-align: center;
+}
+
+.menu ul li{
+	width: 100px;
+	margin: 15px;
+	padding: 10px;
+
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.active, .menu ul li:hover{
+	background: #7c8d76;
+	border-radius: 2px;
+}
+
+.menu .fas{
+	margin-right: 8px;
+}
+
+.sub-menu-1{
+	display: none;
+}
+
+.menu ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background:#a7f18e;
+	margin-top: 10px;
+	margin-left: -10px;
+	padding:auto;
+	text-align:justify;
+}
+
+.menu ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 10px;
+}
+
+.menu ul li:hover .sub-menu-1 ul li{
+	width: 150px;
+	padding: 5px;
+	border-bottom: 1px dotted #000;
+	border-radius: 0px;
+    text-align: left;
+}
+
+.menu ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+
+.menu ul li:hover .sub-menu-1 ul li a:hover{
+	color: white;
+}
+
+.sub-menu-2{
+	display: none;
+}
+
+.hover:hover .sub-menu-2{
+	display: block;
+	position: absolute;
+	margin-top: -38px;
+	margin-left: 155px;
+	background-color:#a7f18e ;
+}
+
+.title{
+	padding-top: 2px;
+	font-family:'Times New Roman', Times, serif;
+	height: 4.5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	width: 0ch;
+	overflow: hidden;
+	white-space: nowrap;
+	align-items: center;
+	animation: h1 5s infinite alternate;
+	border-right: 2px solid black;
+	font-size: 40px;
+}
+
+@keyframes h1 {
+	0% {
+		width: 0ch;
+	}
+	80% {
+		width: 14.5ch;
+	}
+
+}
+
+
+
+
